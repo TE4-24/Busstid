@@ -12,6 +12,8 @@
                 echo " <div style='border: 1px solid;padding-bottom:5px;'>Rad: ". $i ." </div>";
             }
             
+            // 581254 Borlänge Centrum ID
+            // 581386 Borlänge Resecentrum ID
         ?>
 
     </body>
