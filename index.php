@@ -3,7 +3,6 @@
     </head>
     <body>
         <?php 
-        $BussTider = Buss + Tid;
 
              if (2 > 1) {
                 echo "<h1>Buss Tider</h1>";
