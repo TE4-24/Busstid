@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PublicationDelivery xmlns="http://www.netex.org.uk/netex" xmlns:ns2="http://www.opengis.net/gml/3.2" xmlns:ns3="http://www.siri.org.uk/siri" version="1.11:NO-NeTEx-networktimetable:1.3">
+    <PublicationTimestamp>2024-09-02T03:57:40</PublicationTimestamp>
+    <ParticipantRef>SAM</ParticipantRef>
+    <dataObjects>
+        <CompositeFrame created="2024-09-02T03:57:40" version="20240902035740" id="SE:020:CompositeFrame:9011020030200000">
+            <ValidBetween>
+                <FromDate>1970-01-01T00:00:00</FromDate>
+            </ValidBetween>
+            <codespaces>
+                <Codespace id="SE:020">
+                    <Xmlns>SE:020</Xmlns>
+                    <XmlnsUrl>http://www.samtrafiken.se/ns/dt</XmlnsUrl>
+                </Codespace>
+            </codespaces>
+            <FrameDefaults>
+                <DefaultLocale>
+                    <TimeZone>Europe/Stockholm</TimeZone>
+                    <DefaultLanguage>se</DefaultLanguage>
+                </DefaultLocale>
+                <DefaultLocationSystem>4326</DefaultLocationSystem>
+            </FrameDefaults>
+            <frames>
+                <ServiceFrame version="20240902035740" id="SE:020:ServiceFrame:9011020030200000">
+                    <routes>
+                        <Route version="any" id="SE:020:Route:205330000122253976">
+                            <Name>Nyhammar</Name>
+                            <LineRef ref="SE:020:Line:9011020030200000" version="190819"/>
+                            <DirectionType>outbound</DirectionType>
+                            <pointsInSequence>
+<PointOnRoute order="1" version="any" id="SE:020:PointOnRoute:205330000122253981">
+    <RoutePointRef ref="SE:020:RoutePoint:9022020585313001"/>
+</PointOnRoute>
+<PointOnRoute order="2" version="any" id="SE:020:PointOnRoute:205330000122253982">
+    <RoutePointRef ref="SE:020:RoutePoint:9022020585969001"/>
+</PointOnRoute>
+<PointOnRoute order="3" version="any" id="SE:020:PointOnRoute:205330000122253983">
+    <RoutePointRef ref="SE:020:RoutePoint:9022020585981001"/>
+</PointOnRoute>
+<PointOnRoute order="4" version="any" id="SE:020:PointOnRoute:205330000122253984">
+    <RoutePointRef ref="SE:020:RoutePoint:9022020585947001"/>
+</PointOnRoute>
+<PointOnRoute order="5" version="any" id="SE:020:PointOnRoute:205330000122253985">
+    <RoutePointRef ref="SE:020:RoutePoint:9022020585950001"/>
+</PointOnRoute>
+<PointOnRoute order="6" version="any" id="SE:020:PointOnRoute:205330000122253986">
+    <RoutePointRef ref="SE:020:RoutePoint:9022020585949001"/>
+</PointOnRoute>
+<PointOnRoute order="7" version="any" id="SE:020:PointOnRoute:205330000122253987">
+    <RoutePointRef ref="SE:020:RoutePoint:9022020585060001"/>
+</PointOnRoute>
+<PointOnRoute order="8" version="any" id="SE:020:PointOnRoute:205330000122253988">
+    <RoutePointRef ref="SE:020:RoutePoint:9022020585059001"/>
+</PointOnRoute>
+<PointOnRoute order="9" version="any" id="SE:020:PointOnRoute:205330000122253989">
+    <RoutePointRef ref="SE:020:RoutePoint:9022020585058001"/>
+</PointOnRoute>
+<PointOnRoute order="10" version="any" id="SE:020:PointOnRoute:205330000122253990">
+    <RoutePointRef ref="SE:020:RoutePoint:9022020585328001"/>
+</PointOnRoute>
+<PointOnRoute order="11" version="any" id="SE:020:PointOnRoute:205330000122253991">
+    <RoutePointRef ref="SE:020:RoutePoint:9022020585951002"/>
+</PointOnRoute>
+<PointOnRoute order="12" version="any" id="SE:020:PointOnRoute:205330000122253992">
+    <RoutePointRef ref="SE:020:RoutePoint:9022020585017001"/>
+</PointOnRoute>
+<PointOnRoute order="13" version="any" id="SE:020:PointOnRoute:205330000122253993">
+    <RoutePointRef ref="SE:020:RoutePoint:9022020585951001"/>
+</PointOnRoute>
+<PointOnRoute order="14" version="any" id="SE:020:PointOnRoute:205330000122253994">
+    <RoutePointRef ref="SE:020:RoutePoint:9022020585016001"/>
+</PointOnRoute>
+<PointOnRoute order="15" version="any" id="SE:020:PointOnRoute:205330000122253995">
+    <RoutePointRef ref="SE:020:RoutePoint:9022020585010001"/>
+</PointOnRoute>
+                            </pointsInSequence>
+                        </Route>
+                        <Route version="any" id="SE:020:Route:205330000122254007">
+                            <Name>Laxsjön </Name>
+                            <LineRef ref="SE:020:Line:9011020030200000" version="190819"/>
+                            <DirectionType>inbound</DirectionType>
+                            <pointsInSequence>
+<PointOnRoute order="1" version="any" id="SE:020:PointOnRoute:205330000122254012">
+    <RoutePointRef ref="SE:020:RoutePoint:9022020585010001"/>
+</PointOnRoute>
+<PointOnRoute order="2" version="any" id="SE:020:PointOnRoute:205330000122254013">
+    <RoutePointRef ref="SE:020:RoutePoint:9022020585016002"/>
+</PointOnRoute>
+<PointOnRoute order="3" version="any" id="SE:020:PointOnRoute:205330000122254014">
+    <RoutePointRef ref="SE:020:RoutePoint:9022020585951002"/>
+</PointOnRoute>
+<PointOnRoute order="4" version="any" id="SE:020:PointOnRoute:205330000122254015">
+    <RoutePointRef ref="SE:020:RoutePoint:9022020585017001"/>
+</PointOnRoute>
+<PointOnRoute order="5" version="any" id="SE:020:PointOnRoute:205330000122254016">
+    <RoutePointRef ref="SE:020:RoutePoint:9022020585951001"/>
+</PointOnRoute>
+<PointOnRoute order="6" version="any" id="SE:020:PointOnRoute:205330000122254017">
+    <RoutePointRef ref="SE:020:RoutePoint:9022020585328002"/>
+</PointOnRoute>
+<PointOnRoute order="7" version="any" id="SE:020:PointOnRoute:205330000122254018">
+    <RoutePointRef ref="SE:020:RoutePoint:9022020585058002"/>
+</PointOnRoute>
+<PointOnRoute order="8" version="any" id="SE:020:PointOnRoute:205330000122254019">
+    <RoutePointRef ref="SE:020:RoutePoint:9022020585059002"/>
+</PointOnRoute>
+<PointOnRoute order="9" version="any" id="SE:020:PointOnRoute:205330000122254020">
+    <RoutePointRef ref="SE:020:RoutePoint:9022020585060002"/>
+</PointOnRoute>
+<PointOnRoute order="10" version="any" id="SE:020:PointOnRoute:205330000122254021">
+    <RoutePointRef ref="SE:020:RoutePoint:9022020585949001"/>
+</PointOnRoute>
+<PointOnRoute order="11" version="any" id="SE:020:PointOnRoute:205330000122254022">
+    <RoutePointRef ref="SE:020:RoutePoint:9022020585950001"/>
+</PointOnRoute>
+<PointOnRoute order="12" version="any" id="SE:020:PointOnRoute:205330000122254023">
+    <RoutePointRef ref="SE:020:RoutePoint:9022020585947001"/>
+</PointOnRoute>
+<PointOnRoute order="13" version="any" id="SE:020:PointOnRoute:205330000122254024">
+    <RoutePointRef ref="SE:020:RoutePoint:9022020585981001"/>
+</PointOnRoute>
+<PointOnRoute order="14" version="any" id="SE:020:PointOnRoute:205330000122254025">
+    <RoutePointRef ref="SE:020:RoutePoint:9022020585969001"/>
+</PointOnRoute>
+<PointOnRoute order="15" version="any" id="SE:020:PointOnRoute:205330000122254026">
+    <RoutePointRef ref="SE:020:RoutePoint:9022020585313001"/>
+</PointOnRoute>
+                            </pointsInSequence>
+                        </Route>
+                    </routes>
+                    <lines>
+                        <Line version="190819" id="SE:020:Line:9011020030200000">
+                            <ValidBetween>
+<FromDate>2019-08-19T00:00:00</FromDate>
+                            </ValidBetween>
+                            <Name>302</Name>
+                            <TransportMode>bus</TransportMode>
+                            <TransportSubmode>
+<BusSubmode>unknown</BusSubmode>
+                            </TransportSubmode>
+                            <PublicCode>302</PublicCode>
+                            <PrivateCode>302</PrivateCode>
+                            <RepresentedByGroupRef ref="SE:020:Network:9010020000000000"/>
+                        </Line>
+                    </lines>
+                    <journeyPatterns>
+                        <JourneyPattern version="any" id="SE:020:JourneyPattern:205339415000026159">
+                            <RouteRef ref="SE:020:Route:205330000122253976" version="any"/>
+                            <pointsInSequence>
+<StopPointInJourneyPattern order="1" version="any" id="SE:020:StopPointInJourneyPattern:205339415000026159_205330000122253981">
+    <ScheduledStopPointRef ref="SE:020:ScheduledStopPoint:9022020585313001"/>
+    <ForAlighting>false</ForAlighting>
+    <ForBoarding>true</ForBoarding>
+    <DestinationDisplayRef ref="SE:020:DestinationDisplay:205330000122254003"/>
+    <RequestStop>true</RequestStop>
+</StopPointInJourneyPattern>
+<StopPointInJourneyPattern order="2" version="any" id="SE:020:StopPointInJourneyPattern:205339415000026159_205330000122253982">
+    <ScheduledStopPointRef ref="SE:020:ScheduledStopPoint:9022020585969001"/>
+    <ForAlighting>true</ForAlighting>
+    <ForBoarding>true</ForBoarding>
+    <RequestStop>true</RequestStop>
+</StopPointInJourneyPattern>
+<StopPointInJourneyPattern order="3" version="any" id="SE:020:StopPointInJourneyPattern:205339415000026159_205330000122253983">
+    <ScheduledStopPointRef ref="SE:020:ScheduledStopPoint:9022020585981001"/>
+    <ForAlighting>true</ForAlighting>
+    <ForBoarding>true</ForBoarding>
+    <RequestStop>true</RequestStop>
+</StopPointInJourneyPattern>
+<StopPointInJourneyPattern order="4" version="any" id="SE:020:StopPointInJourneyPattern:205339415000026159_205330000122253984">
+    <ScheduledStopPointRef ref="SE:020:ScheduledStopPoint:9022020585947001"/>
+    <ForAlighting>true</ForAlighting>
+    <ForBoarding>true</ForBoarding>
+    <RequestStop>true</RequestStop>
+</StopPointInJourneyPattern>
+<StopPointInJourneyPattern order="5" version="any" id="SE:020:StopPointInJourneyPattern:205339415000026159_205330000122253985">
+    <ScheduledStopPointRef ref="SE:020:ScheduledStopPoint:9022020585950001"/>
+    <ForAlighting>true</ForAlighting>
+    <ForBoarding>true</ForBoarding>
+    <RequestStop>true</RequestStop>
+</StopPointInJourneyPattern>
+<StopPointInJourneyPattern order="6" version="any" id="SE:020:StopPointInJourneyPattern:205339415000026159_205330000122253986">
+    <ScheduledStopPointRef ref="SE:020:ScheduledStopPoint:9022020585949001"/>
+    <ForAlighting>true</ForAlighting>
+    <ForBoarding>true</ForBoarding>
+    <RequestStop>true</RequestStop>
+</StopPointInJourneyPattern>
+<StopPointInJourneyPattern order="7" version="any" id="SE:020:StopPointInJourneyPattern:205339415000026159_205330000122253987">
+    <ScheduledStopPointRef ref="SE:020:ScheduledStopPoint:9022020585060001"/>
+    <ForAlighting>true</ForAlighting>
+    <ForBoarding>true</ForBoarding>
+    <RequestStop>true</RequestStop>
+</StopPointInJourneyPattern>
+<StopPointInJourneyPattern order="8" version="any" id="SE:020:StopPointInJourneyPattern:205339415000026159_205330000122253988">
+    <ScheduledStopPointRef ref="SE:020:ScheduledStopPoint:9022020585059001"/>
+    <ForAlighting>true</ForAlighting>
+    <ForBoarding>true</ForBoarding>
+    <RequestStop>true</RequestStop>
+</StopPointInJourneyPattern>
+<StopPointInJourneyPattern order="9" version="any" id="SE:020:StopPointInJourneyPattern:205339415000026159_205330000122253989">
+    <ScheduledStopPointRef ref="SE:020:ScheduledStopPoint:9022020585058001"/>
+    <ForAlighting>true</ForAlighting>
+    <ForBoarding>true</ForBoarding>
+    <RequestStop>true</RequestStop>
+</StopPointInJourneyPattern>
+<StopPointInJourneyPattern order="10" version="any" id="SE:020:StopPointInJourneyPattern:205339415000026159_205330000122253990">
+    <ScheduledStopPointRef ref="SE:020:ScheduledStopPoint:9022020585328001"/>
+    <ForAlighting>true</ForAlighting>
+    <ForBoarding>true</ForBoarding>
+    <RequestStop>true</RequestStop>
+</StopPointInJourneyPattern>
+<StopPointInJourneyPattern order="11" version="any" id="SE:020:StopPointInJourneyPattern:205339415000026159_205330000122253991">
+    <ScheduledStopPointRef ref="SE:020:ScheduledStopPoint:9022020585951002"/>
+    <ForAlighting>true</ForAlighting>
+    <ForBoarding>true</ForBoarding>
+    <RequestStop>true</RequestStop>
+</StopPointInJourneyPattern>
+<StopPointInJourneyPattern order="12" version="any" id="SE:020:StopPointInJourneyPattern:205339415000026159_205330000122253992">
+    <ScheduledStopPointRef ref="SE:020:ScheduledStopPoint:9022020585017001"/>
+    <ForAlighting>true</ForAlighting>
+    <ForBoarding>true</ForBoarding>
+    <RequestStop>true</RequestStop>
+</StopPointInJourneyPattern>
+<StopPointInJourneyPattern order="13" version="any" id="SE:020:StopPointInJourneyPattern:205339415000026159_205330000122253993">
+    <ScheduledStopPointRef ref="SE:020:ScheduledStopPoint:9022020585951001"/>
+    <ForAlighting>true</ForAlighting>
+    <ForBoarding>true</ForBoarding>
+    <RequestStop>true</RequestStop>
+</StopPointInJourneyPattern>
+<StopPointInJourneyPattern order="14" version="any" id="SE:020:StopPointInJourneyPattern:205339415000026159_205330000122253994">
+    <ScheduledStopPointRef ref="SE:020:ScheduledStopPoint:9022020585016001"/>
+    <ForAlighting>true</ForAlighting>
+    <ForBoarding>true</ForBoarding>
+    <RequestStop>true</RequestStop>
+</StopPointInJourneyPattern>
+<StopPointInJourneyPattern order="15" version="any" id="SE:020:StopPointInJourneyPattern:205339415000026159_205330000122253995">
+    <ScheduledStopPointRef ref="SE:020:ScheduledStopPoint:9022020585010001"/>
+    <ForAlighting>true</ForAlighting>
+    <ForBoarding>false</ForBoarding>
+    <RequestStop>true</RequestStop>
+</StopPointInJourneyPattern>
+                            </pointsInSequence>
+                            <linksInSequence>
+<ServiceLinkInJourneyPattern order="1" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39245">
+    <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058531301_9025020058596901"/>
+</ServiceLinkInJourneyPattern>
+<ServiceLinkInJourneyPattern order="2" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39246">
+    <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058596901_9025020058598101"/>
+</ServiceLinkInJourneyPattern>
+<ServiceLinkInJourneyPattern order="3" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39247">
+    <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058598101_9025020058594701"/>
+</ServiceLinkInJourneyPattern>
+<ServiceLinkInJourneyPattern order="4" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39248">
+    <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058594701_9025020058595001"/>
+</ServiceLinkInJourneyPattern>
+<ServiceLinkInJourneyPattern order="5" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39249">
+    <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058595001_9025020058594901"/>
+</ServiceLinkInJourneyPattern>
+<ServiceLinkInJourneyPattern order="6" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39250">
+    <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058594901_9025020058506001"/>
+</ServiceLinkInJourneyPattern>
+<ServiceLinkInJourneyPattern order="7" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39251">
+    <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058506001_9025020058505901"/>
+</ServiceLinkInJourneyPattern>
+<ServiceLinkInJourneyPattern order="8" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39252">
+    <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058505901_9025020058505801"/>
+</ServiceLinkInJourneyPattern>
+<ServiceLinkInJourneyPattern order="9" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39253">
+    <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058505801_9025020058532801"/>
+</ServiceLinkInJourneyPattern>
+<ServiceLinkInJourneyPattern order="10" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39254">
+    <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058532801_9025020058595102"/>
+</ServiceLinkInJourneyPattern>
+<ServiceLinkInJourneyPattern order="11" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39255">
+    <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058595102_9025020058501701"/>
+</ServiceLinkInJourneyPattern>
+<ServiceLinkInJourneyPattern order="12" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39256">
+    <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058501701_9025020058595101"/>
+</ServiceLinkInJourneyPattern>
+<ServiceLinkInJourneyPattern order="13" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39257">
+    <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058595101_9025020058501601"/>
+</ServiceLinkInJourneyPattern>
+<ServiceLinkInJourneyPattern order="14" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39258">
+    <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058501601_9025020058501001"/>
+</ServiceLinkInJourneyPattern>
+                            </linksInSequence>
+                        </JourneyPattern>
+                        <JourneyPattern version="any" id="SE:020:JourneyPattern:205339415000026160">
+                            <RouteRef ref="SE:020:Route:205330000122254007" version="any"/>
+                            <pointsInSequence>
+<StopPointInJourneyPattern order="1" version="any" id="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254012">
+    <ScheduledStopPointRef ref="SE:020:ScheduledStopPoint:9022020585010001"/>
+    <ForAlighting>false</ForAlighting>
+    <ForBoarding>true</ForBoarding>
+    <DestinationDisplayRef ref="SE:020:DestinationDisplay:205330000122254034"/>
+    <RequestStop>true</RequestStop>
+</StopPointInJourneyPattern>
+<StopPointInJourneyPattern order="2" version="any" id="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254013">
+    <ScheduledStopPointRef ref="SE:020:ScheduledStopPoint:9022020585016002"/>
+    <ForAlighting>true</ForAlighting>
+    <ForBoarding>true</ForBoarding>
+    <RequestStop>true</RequestStop>
+</StopPointInJourneyPattern>
+<StopPointInJourneyPattern order="3" version="any" id="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254014">
+    <ScheduledStopPointRef ref="SE:020:ScheduledStopPoint:9022020585951002"/>
+    <ForAlighting>true</ForAlighting>
+    <ForBoarding>true</ForBoarding>
+    <RequestStop>true</RequestStop>
+</StopPointInJourneyPattern>
+<StopPointInJourneyPattern order="4" version="any" id="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254015">
+    <ScheduledStopPointRef ref="SE:020:ScheduledStopPoint:9022020585017001"/>
+    <ForAlighting>true</ForAlighting>
+    <ForBoarding>true</ForBoarding>
+    <RequestStop>true</RequestStop>
+</StopPointInJourneyPattern>
+<StopPointInJourneyPattern order="5" version="any" id="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254016">
+    <ScheduledStopPointRef ref="SE:020:ScheduledStopPoint:9022020585951001"/>
+    <ForAlighting>true</ForAlighting>
+    <ForBoarding>true</ForBoarding>
+    <RequestStop>true</RequestStop>
+</StopPointInJourneyPattern>
+<StopPointInJourneyPattern order="6" version="any" id="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254017">
+    <ScheduledStopPointRef ref="SE:020:ScheduledStopPoint:9022020585328002"/>
+    <ForAlighting>true</ForAlighting>
+    <ForBoarding>true</ForBoarding>
+    <RequestStop>true</RequestStop>
+</StopPointInJourneyPattern>
+<StopPointInJourneyPattern order="7" version="any" id="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254018">
+    <ScheduledStopPointRef ref="SE:020:ScheduledStopPoint:9022020585058002"/>
+    <ForAlighting>true</ForAlighting>
+    <ForBoarding>true</ForBoarding>
+    <RequestStop>true</RequestStop>
+</StopPointInJourneyPattern>
+<StopPointInJourneyPattern order="8" version="any" id="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254019">
+    <ScheduledStopPointRef ref="SE:020:ScheduledStopPoint:9022020585059002"/>
+    <ForAlighting>true</ForAlighting>
+    <ForBoarding>true</ForBoarding>
+    <RequestStop>true</RequestStop>
+</StopPointInJourneyPattern>
+<StopPointInJourneyPattern order="9" version="any" id="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254020">
+    <ScheduledStopPointRef ref="SE:020:ScheduledStopPoint:9022020585060002"/>
+    <ForAlighting>true</ForAlighting>
+    <ForBoarding>true</ForBoarding>
+    <RequestStop>true</RequestStop>
+</StopPointInJourneyPattern>
+<StopPointInJourneyPattern order="10" version="any" id="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254021">
+    <ScheduledStopPointRef ref="SE:020:ScheduledStopPoint:9022020585949001"/>
+    <ForAlighting>true</ForAlighting>
+    <ForBoarding>true</ForBoarding>
+    <RequestStop>true</RequestStop>
+</StopPointInJourneyPattern>
+<StopPointInJourneyPattern order="11" version="any" id="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254022">
+    <ScheduledStopPointRef ref="SE:020:ScheduledStopPoint:9022020585950001"/>
+    <ForAlighting>true</ForAlighting>
+    <ForBoarding>true</ForBoarding>
+    <RequestStop>true</RequestStop>
+</StopPointInJourneyPattern>
+<StopPointInJourneyPattern order="12" version="any" id="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254023">
+    <ScheduledStopPointRef ref="SE:020:ScheduledStopPoint:9022020585947001"/>
+    <ForAlighting>true</ForAlighting>
+    <ForBoarding>true</ForBoarding>
+    <RequestStop>true</RequestStop>
+</StopPointInJourneyPattern>
+<StopPointInJourneyPattern order="13" version="any" id="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254024">
+    <ScheduledStopPointRef ref="SE:020:ScheduledStopPoint:9022020585981001"/>
+    <ForAlighting>true</ForAlighting>
+    <ForBoarding>true</ForBoarding>
+    <RequestStop>true</RequestStop>
+</StopPointInJourneyPattern>
+<StopPointInJourneyPattern order="14" version="any" id="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254025">
+    <ScheduledStopPointRef ref="SE:020:ScheduledStopPoint:9022020585969001"/>
+    <ForAlighting>true</ForAlighting>
+    <ForBoarding>true</ForBoarding>
+    <RequestStop>true</RequestStop>
+</StopPointInJourneyPattern>
+<StopPointInJourneyPattern order="15" version="any" id="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254026">
+    <ScheduledStopPointRef ref="SE:020:ScheduledStopPoint:9022020585313001"/>
+    <ForAlighting>true</ForAlighting>
+    <ForBoarding>false</ForBoarding>
+    <RequestStop>true</RequestStop>
+</StopPointInJourneyPattern>
+                            </pointsInSequence>
+                            <linksInSequence>
+<ServiceLinkInJourneyPattern order="1" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39259">
+    <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058501001_9025020058501602"/>
+</ServiceLinkInJourneyPattern>
+<ServiceLinkInJourneyPattern order="2" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39260">
+    <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058501602_9025020058595102"/>
+</ServiceLinkInJourneyPattern>
+<ServiceLinkInJourneyPattern order="3" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39261">
+    <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058595102_9025020058501701"/>
+</ServiceLinkInJourneyPattern>
+<ServiceLinkInJourneyPattern order="4" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39262">
+    <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058501701_9025020058595101"/>
+</ServiceLinkInJourneyPattern>
+<ServiceLinkInJourneyPattern order="5" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39263">
+    <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058595101_9025020058532802"/>
+</ServiceLinkInJourneyPattern>
+<ServiceLinkInJourneyPattern order="6" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39264">
+    <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058532802_9025020058505802"/>
+</ServiceLinkInJourneyPattern>
+<ServiceLinkInJourneyPattern order="7" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39265">
+    <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058505802_9025020058505902"/>
+</ServiceLinkInJourneyPattern>
+<ServiceLinkInJourneyPattern order="8" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39266">
+    <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058505902_9025020058506002"/>
+</ServiceLinkInJourneyPattern>
+<ServiceLinkInJourneyPattern order="9" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39267">
+    <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058506002_9025020058594901"/>
+</ServiceLinkInJourneyPattern>
+<ServiceLinkInJourneyPattern order="10" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39268">
+    <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058594901_9025020058595001"/>
+</ServiceLinkInJourneyPattern>
+<ServiceLinkInJourneyPattern order="11" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39269">
+    <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058595001_9025020058594701"/>
+</ServiceLinkInJourneyPattern>
+<ServiceLinkInJourneyPattern order="12" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39270">
+    <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058594701_9025020058598101"/>
+</ServiceLinkInJourneyPattern>
+<ServiceLinkInJourneyPattern order="13" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39271">
+    <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058598101_9025020058596901"/>
+</ServiceLinkInJourneyPattern>
+<ServiceLinkInJourneyPattern order="14" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39272">
+    <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058596901_9025020058531301"/>
+</ServiceLinkInJourneyPattern>
+                            </linksInSequence>
+                        </JourneyPattern>
+                    </journeyPatterns>
+                </ServiceFrame>
+                <TimetableFrame version="20240902035740" id="SE:020:TimetableFrame:9011020030200000">
+                    <vehicleJourneys>
+                        <ServiceJourney version="any" id="SE:020:ServiceJourney:205330000122254059">
+                            <TransportMode>bus</TransportMode>
+                            <TransportSubmode>
+<BusSubmode>unknown</BusSubmode>
+                            </TransportSubmode>
+                            <dayTypes>
+<DayTypeRef ref="SE:020:DayType:h05vum7jn71m52v7li4eqrlmspeivijh"/>
+                            </dayTypes>
+                            <JourneyPatternRef ref="SE:020:JourneyPattern:205339415000026159" version="any"/>
+                            <OperatorRef ref="SE:020:Operator:9013020140700000"/>
+                            <passingTimes>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254042">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026159_205330000122253981" version="any"/>
+    <DepartureTime>06:45:00</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254043">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026159_205330000122253982" version="any"/>
+    <ArrivalTime>06:50:00</ArrivalTime>
+    <DepartureTime>06:50:00</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254044">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026159_205330000122253983" version="any"/>
+    <ArrivalTime>06:55:00</ArrivalTime>
+    <DepartureTime>06:55:00</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254045">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026159_205330000122253984" version="any"/>
+    <ArrivalTime>07:01:42</ArrivalTime>
+    <DepartureTime>07:01:42</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254046">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026159_205330000122253985" version="any"/>
+    <ArrivalTime>07:05:00</ArrivalTime>
+    <DepartureTime>07:05:00</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254047">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026159_205330000122253986" version="any"/>
+    <ArrivalTime>07:10:00</ArrivalTime>
+    <DepartureTime>07:10:00</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254048">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026159_205330000122253987" version="any"/>
+    <ArrivalTime>07:11:44</ArrivalTime>
+    <DepartureTime>07:11:44</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254049">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026159_205330000122253988" version="any"/>
+    <ArrivalTime>07:12:05</ArrivalTime>
+    <DepartureTime>07:12:05</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254050">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026159_205330000122253989" version="any"/>
+    <ArrivalTime>07:13:11</ArrivalTime>
+    <DepartureTime>07:13:11</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254051">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026159_205330000122253990" version="any"/>
+    <ArrivalTime>07:14:06</ArrivalTime>
+    <DepartureTime>07:14:06</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254052">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026159_205330000122253991" version="any"/>
+    <ArrivalTime>07:15:29</ArrivalTime>
+    <DepartureTime>07:15:29</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254053">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026159_205330000122253992" version="any"/>
+    <ArrivalTime>07:17:00</ArrivalTime>
+    <DepartureTime>07:17:00</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254054">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026159_205330000122253993" version="any"/>
+    <ArrivalTime>07:17:40</ArrivalTime>
+    <DepartureTime>07:17:40</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254055">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026159_205330000122253994" version="any"/>
+    <ArrivalTime>07:20:44</ArrivalTime>
+    <DepartureTime>07:20:44</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254056">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026159_205330000122253995" version="any"/>
+    <ArrivalTime>07:25:00</ArrivalTime>
+</TimetabledPassingTime>
+                            </passingTimes>
+                        </ServiceJourney>
+                        <ServiceJourney version="any" id="SE:020:ServiceJourney:205330000122254111">
+                            <TransportMode>bus</TransportMode>
+                            <TransportSubmode>
+<BusSubmode>unknown</BusSubmode>
+                            </TransportSubmode>
+                            <dayTypes>
+<DayTypeRef ref="SE:020:DayType:ammij79rasli0gook0lqm2su31okil6r"/>
+                            </dayTypes>
+                            <JourneyPatternRef ref="SE:020:JourneyPattern:205339415000026160" version="any"/>
+                            <OperatorRef ref="SE:020:Operator:9013020140700000"/>
+                            <passingTimes>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254093">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254012" version="any"/>
+    <DepartureTime>14:30:00</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254094">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254013" version="any"/>
+    <ArrivalTime>14:33:07</ArrivalTime>
+    <DepartureTime>14:33:07</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254095">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254014" version="any"/>
+    <ArrivalTime>14:35:45</ArrivalTime>
+    <DepartureTime>14:35:45</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254096">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254015" version="any"/>
+    <ArrivalTime>14:37:00</ArrivalTime>
+    <DepartureTime>14:37:00</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254097">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254016" version="any"/>
+    <ArrivalTime>14:37:45</ArrivalTime>
+    <DepartureTime>14:37:45</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254098">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254017" version="any"/>
+    <ArrivalTime>14:38:55</ArrivalTime>
+    <DepartureTime>14:38:55</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254099">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254018" version="any"/>
+    <ArrivalTime>14:39:42</ArrivalTime>
+    <DepartureTime>14:39:42</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254100">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254019" version="any"/>
+    <ArrivalTime>14:40:34</ArrivalTime>
+    <DepartureTime>14:40:34</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254101">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254020" version="any"/>
+    <ArrivalTime>14:40:55</ArrivalTime>
+    <DepartureTime>14:40:55</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254102">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254021" version="any"/>
+    <ArrivalTime>14:43:00</ArrivalTime>
+    <DepartureTime>14:43:00</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254103">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254022" version="any"/>
+    <ArrivalTime>14:48:00</ArrivalTime>
+    <DepartureTime>14:48:00</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254104">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254023" version="any"/>
+    <ArrivalTime>14:49:21</ArrivalTime>
+    <DepartureTime>14:49:21</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254105">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254024" version="any"/>
+    <ArrivalTime>14:58:00</ArrivalTime>
+    <DepartureTime>14:58:00</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254106">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254025" version="any"/>
+    <ArrivalTime>15:05:00</ArrivalTime>
+    <DepartureTime>15:05:00</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254107">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254026" version="any"/>
+    <ArrivalTime>15:10:00</ArrivalTime>
+</TimetabledPassingTime>
+                            </passingTimes>
+                        </ServiceJourney>
+                        <ServiceJourney version="any" id="SE:020:ServiceJourney:205330000122254083">
+                            <TransportMode>bus</TransportMode>
+                            <TransportSubmode>
+<BusSubmode>unknown</BusSubmode>
+                            </TransportSubmode>
+                            <dayTypes>
+<DayTypeRef ref="SE:020:DayType:h05vum7jn71m52v7li4eqrlmspeivijh"/>
+                            </dayTypes>
+                            <JourneyPatternRef ref="SE:020:JourneyPattern:205339415000026160" version="any"/>
+                            <OperatorRef ref="SE:020:Operator:9013020140700000"/>
+                            <passingTimes>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254066">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254012" version="any"/>
+    <DepartureTime>13:00:00</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254067">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254013" version="any"/>
+    <ArrivalTime>13:03:07</ArrivalTime>
+    <DepartureTime>13:03:07</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254068">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254014" version="any"/>
+    <ArrivalTime>13:05:45</ArrivalTime>
+    <DepartureTime>13:05:45</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254069">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254015" version="any"/>
+    <ArrivalTime>13:07:00</ArrivalTime>
+    <DepartureTime>13:07:00</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254070">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254016" version="any"/>
+    <ArrivalTime>13:07:45</ArrivalTime>
+    <DepartureTime>13:07:45</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254071">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254017" version="any"/>
+    <ArrivalTime>13:08:55</ArrivalTime>
+    <DepartureTime>13:08:55</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254072">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254018" version="any"/>
+    <ArrivalTime>13:09:42</ArrivalTime>
+    <DepartureTime>13:09:42</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254073">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254019" version="any"/>
+    <ArrivalTime>13:10:34</ArrivalTime>
+    <DepartureTime>13:10:34</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254074">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254020" version="any"/>
+    <ArrivalTime>13:10:55</ArrivalTime>
+    <DepartureTime>13:10:55</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254075">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254021" version="any"/>
+    <ArrivalTime>13:13:00</ArrivalTime>
+    <DepartureTime>13:13:00</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254076">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254022" version="any"/>
+    <ArrivalTime>13:18:00</ArrivalTime>
+    <DepartureTime>13:18:00</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254077">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254023" version="any"/>
+    <ArrivalTime>13:19:21</ArrivalTime>
+    <DepartureTime>13:19:21</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254078">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254024" version="any"/>
+    <ArrivalTime>13:28:00</ArrivalTime>
+    <DepartureTime>13:28:00</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254079">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254025" version="any"/>
+    <ArrivalTime>13:35:00</ArrivalTime>
+    <DepartureTime>13:35:00</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000122254080">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000026160_205330000122254026" version="any"/>
+    <ArrivalTime>13:40:00</ArrivalTime>
+</TimetabledPassingTime>
+                            </passingTimes>
+                        </ServiceJourney>
+                    </vehicleJourneys>
+                    <journeyInterchanges>
+                        <ServiceJourneyInterchange version="any" id="SE:020:ServiceJourneyInterchange:205330000122254111_1">
+                            <Priority>0</Priority>
+                            <Guaranteed>false</Guaranteed>
+                            <Advertised>true</Advertised>
+                            <FromPointRef ref="SE:020:ScheduledStopPoint:9022020585010001"/>
+                            <ToPointRef ref="SE:020:ScheduledStopPoint:9022020585010001"/>
+                            <FromJourneyRef ref="SE:020:ServiceJourney:205330000122467138"/>
+                            <ToJourneyRef ref="SE:020:ServiceJourney:205330000122254111" version="any"/>
+                        </ServiceJourneyInterchange>
+                    </journeyInterchanges>
+                </TimetableFrame>
+            </frames>
+        </CompositeFrame>
+    </dataObjects>
+</PublicationDelivery>
