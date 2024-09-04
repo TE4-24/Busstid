@@ -2,19 +2,21 @@
     <head>
     </head>
     <body>
-        <?php 
-
-             if (2 > 1) {
-                echo "<h1>Buss Tider</h1>";
-             }
-            for ($i = 0; $i <= 10; $i++) {
-                echo  "<div>Buss</div>";
-                echo " <div style='border: 1px solid;padding-bottom:5px;'>Rad: ". $i ." </div>";
+    <?php
+        $xml=simplexml_load_file("dt/_stops.xml")->dataObjects->SiteFrame->stopPlaces or die("Error: Cannot create object");
+        
+        foreach ($xml->StopPlace as $code) {
+            if (stripos($code->Name, 'Borlänge Centrum') !== false) {
+                echo $code->Name . "<br>";
+                echo $code->PrivateCode . "<br>";
             }
-            
-            // 581254 Borlänge Centrum ID
-            // 581386 Borlänge Resecentrum ID
-        ?>
+            elseif (stripos($code->Name, 'Borlänge Resecentrum') !== false) {
+                echo $code->Name . "<br>";
+                echo $code->PrivateCode . "<br>";
+                break;
+            }
+        }
+    ?> 
 
     </body>
     </html>
