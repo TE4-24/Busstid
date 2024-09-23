@@ -1,0 +1,159 @@
+/* @font-face {
+  font-family: myFirstFont;
+  src: url();
+} */
+
+body {
+  background-image: linear-gradient(#9100d4, #bd25b0);
+  background-attachment: fixed;
+}
+
+/* div {
+  font-family: myFirstFont;
+} */
+
+/* Creates flex for all boxes and spaces them evenly */
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/*This is styling for the boxes as a group*/
+.column-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f1f100;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /* remove once font is done */
+  width: 95%;
+  gap: 10px;
+}
+
+/*This is styling for the boxes individualy*/
+.column > div {
+  border-radius: 20px;
+  margin-top: 20px;
+  text-align: center;
+  line-height: 100%;
+  font-size: 16px;
+}
+
+.tabelRow {
+  display: flex;
+  flex-direction: row;
+  padding-left: 1px;
+  width: 100%;
+  align-items: stretch;
+  height: 75px;
+  gap: 10px;
+}
+
+/* Aligns all the items in Table row */
+.tabelRow > div {
+  display: flex;
+  align-items: center;
+}
+
+/* Adjust the elements of the transport section in Tabel*/
+.transport {
+  flex: 1;
+  background-color: white;
+  box-shadow: 5px 5px;
+  border-radius: 20px;
+}
+
+/* Fixes size and spacing */
+.time {
+  width: 200px;
+  gap: 10px;
+}
+
+/* Creates boxes around the Time elements */
+.time > div {
+  flex: 1;
+  background-color: white;
+  width: 15%;
+  border-radius: 20px;
+  justify-content: center;
+  height: 75px;
+  box-shadow: 5px 5px;
+}
+
+/* Centers Time text verticaly */
+.time > div > div {
+  transform: translateY(30px);
+}
+
+/* Aligns the text a bit to the right so it is not stuck to the left of the box */
+.number {
+  margin-left: 5%;
+}
+
+/* Edites the gifs with size, positioning and color */
+.gifar {
+  margin-left: auto;
+  margin-right: 5%;
+  filter: hue-rotate(110deg);
+}
+
+/* Devides the columns when the screen is larger than 1070px */
+@media only screen and (min-width: 1070px) {
+  /* Devides the Table into 2 */
+  .column {
+    width: 50%;
+    margin: 10px;
+  }
+
+  /* Aligns the Table into 2 difrent columns */
+  .column-container {
+    flex-direction: row;
+    width: 98%;
+  }
+}
+
+/* Creates changes when the screen is smaler than 1070px (Uses standard settings)*/
+@media only screen and (max-width: 1070px) {
+}
+
+/* Creates changes when the screen is smaler than 545px */
+@media only screen and (max-width: 545px) {
+  /* Makes the Table fill the screen horizontaly and gives it a fixed height*/
+  .tabelRow {
+    flex-direction: column;
+    height: 100px;
+  }
+
+  /* Rounding the corners of Table so it fits the theme */
+  .tabelRow > div {
+    border-radius: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /* border-bottom-right-radius: 0px; */
+  }
+
+  /* Adjusting size and rounding of corners so it fits the theme (two diffrent */
+
+  .time > div {
+    border-radius: 0;
+    height: 25px;
+  }
+
+  .time > div:first-child {
+    border-bottom-left-radius: 20px;
+  }
+
+  .time > div:last-child {
+    border-bottom-right-radius: 20px;
+  }
+
+  /* Fixes height of boxes and moves them closer to Table */
+  .time {
+    width: 100%;
+    height: 75px;
+    transform: translateY(-10px);
+  }
+
+  /* moves the text manualy so it is centerd in the boxes */
+  .time > div > div {
+    transform: translateY(4px);
+  }
+}

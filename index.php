@@ -1,22 +1,62 @@
-<html>
-    <head>
-    </head>
-    <body>
-    <?php
-        $xml=simplexml_load_file("dt/_stops.xml")->dataObjects->SiteFrame->stopPlaces or die("Error: Cannot create object");
-        
-        foreach ($xml->StopPlace as $code) {
-            if (stripos($code->Name, 'Borlänge Centrum') !== false) {
-                echo $code->Name . "<br>";
-                echo $code->PrivateCode . "<br>";
-            }
-            elseif (stripos($code->Name, 'Borlänge Resecentrum') !== false) {
-                echo $code->Name . "<br>";
-                echo $code->PrivateCode . "<br>";
-                break;
-            }
-        }
-    ?> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BussTabel</title>
+  <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+  <script src="https://kit.fontawesome.com/9002bb148d.js" crossorigin="anonymous"></script>
 
-    </body>
-    </html>
+</head>
+<body>
+
+  <div class="flex-container">
+    <img class="banner">
+    <div class="column-container">
+
+      <div class="column">
+      <?php
+          for ($i = 1; $i <= 11; $i++) {
+            ?>
+          <div class="tabelRow">
+            <div class="transport">
+             <p class="number"> Buss </p> 
+             <img src="gifs/bus.gif" width="50px" class="gifar">
+            </div>
+            <div class="time">
+              <div> <div>XX:XX</div> </div>
+              <div> <div>15 Min</div> </div>
+            </div>
+          </div>
+          <?php
+          }
+      ?>
+      
+      </div>
+
+      <div class="column">
+      <?php
+          for ($i = 1; $i <= 11; $i++) {
+            ?>
+          <div class="tabelRow">
+            <div class="transport">
+             <p class="number"> Train </p> 
+             <img src="gifs/train.gif" width="50px" class="gifar">
+            </div>
+            <div class="time">
+              <div><div>XX:XX</div></div>
+              <div><div>15 Min</div></div>
+            </div>
+          </div>
+          <?php
+          }
+      ?>
+      
+      </div>
+
+    </div>
+    
+  </div>
+
+</body>
+</html>
