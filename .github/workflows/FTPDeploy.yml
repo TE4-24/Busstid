@@ -12,7 +12,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
         server: 192.168.1.252
-        username: ${{ secrets.ftpUsername }}
-        password: ${{ secrets.ftpPassword }}
+        username: ftpUser
+        password: ftppassword
         local-dir: ./
         server-dir: /var/www/busstider.com/
