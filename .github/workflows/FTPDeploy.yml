@@ -3,6 +3,7 @@ on:
     branches:
       - main
   pull_request:
+    types: [closed]
     branches:
       - main
 
@@ -12,7 +13,7 @@ jobs:
   web-deploy:
     name: Deploy
     runs-on: self-hosted
-    if: github.event.pull_request.merged == true || github.event_name == 'push'
+    if: github.event.pull_request.merged == true || github.ref == 'refs/heads/main'
     steps:
     - name: Get latest code
       uses: actions/checkout@v4
