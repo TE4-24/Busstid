@@ -1,0 +1,28 @@
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types: [closed]
+    branches:
+      - main
+
+name: FTPDeployServerPush
+
+jobs:
+  web-deploy:
+    name: Deploy
+    runs-on: self-hosted
+    if: github.event.pull_request.merged == true || github.ref == 'refs/heads/main'
+    steps:
+    - name: Get latest code
+      uses: actions/checkout@v4
+    
+    - name: Sync files
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: 192.168.1.252
+        username: ftpUser
+        password: ftppassword
+        local-dir: ./
+        server-dir: /var/www/busstider.com/
