@@ -20,7 +20,7 @@
   
         <div class="column">
         <?php
-            for ($i = 1; $i <= 11; $i++) {
+            for ($i = 1; $i <= 7; $i++) {
               ?>
             <div class="tabelRow">
               <div class="transport">
@@ -40,7 +40,7 @@
   
         <div class="column">
         <?php
-            for ($i = 1; $i <= 11; $i++) {
+            for ($i = 1; $i <= 7; $i++) {
               ?>
             <div class="tabelRow">
               <div class="transport">
