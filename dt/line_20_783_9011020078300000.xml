@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<PublicationDelivery xmlns="http://www.netex.org.uk/netex" xmlns:ns2="http://www.opengis.net/gml/3.2" xmlns:ns3="http://www.siri.org.uk/siri" version="1.11:NO-NeTEx-networktimetable:1.3">
-    <PublicationTimestamp>2024-09-02T03:57:40</PublicationTimestamp>
+<PublicationDelivery xmlns="http://www.netex.org.uk/netex" xmlns:ns2="http://www.opengis.net/gml/3.2" xmlns:ns3="http://www.siri.org.uk/siri" xmlns:ns4="http://www.samtrafiken.se/netex" version="1.11:NO-NeTEx-networktimetable:1.3">
+    <PublicationTimestamp>2024-10-09T02:57:23</PublicationTimestamp>
     <ParticipantRef>SAM</ParticipantRef>
     <dataObjects>
-        <CompositeFrame created="2024-09-02T03:57:40" version="20240902035740" id="SE:020:CompositeFrame:9011020078300000">
+        <CompositeFrame created="2024-10-09T02:57:23" version="20241009025723" id="SE:020:CompositeFrame:9011020078300000">
             <ValidBetween>
                 <FromDate>1970-01-01T00:00:00</FromDate>
             </ValidBetween>
@@ -21,7 +21,7 @@
                 <DefaultLocationSystem>4326</DefaultLocationSystem>
             </FrameDefaults>
             <frames>
-                <ServiceFrame version="20240902035740" id="SE:020:ServiceFrame:9011020078300000">
+                <ServiceFrame version="20241009025723" id="SE:020:ServiceFrame:9011020078300000">
                     <routes>
                         <Route version="any" id="SE:020:Route:205330000090068900">
                             <Name>Flextrafik</Name>
@@ -105,13 +105,13 @@
 </StopPointInJourneyPattern>
                             </pointsInSequence>
                             <linksInSequence>
-<ServiceLinkInJourneyPattern order="1" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38216">
+<ServiceLinkInJourneyPattern order="1" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38295">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053998301_9025020053904101"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="2" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38217">
+<ServiceLinkInJourneyPattern order="2" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38296">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053904101_9025020053902101"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="3" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38218">
+<ServiceLinkInJourneyPattern order="3" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38297">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053902101_9025020053919101"/>
 </ServiceLinkInJourneyPattern>
                             </linksInSequence>
@@ -146,13 +146,13 @@
 </StopPointInJourneyPattern>
                             </pointsInSequence>
                             <linksInSequence>
-<ServiceLinkInJourneyPattern order="1" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38219">
+<ServiceLinkInJourneyPattern order="1" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38298">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053902101_9025020053919101"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="2" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38220">
+<ServiceLinkInJourneyPattern order="2" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38299">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053919101_9025020053904102"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="3" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38221">
+<ServiceLinkInJourneyPattern order="3" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38300">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053904102_9025020053998301"/>
 </ServiceLinkInJourneyPattern>
                             </linksInSequence>
@@ -187,20 +187,20 @@
 </StopPointInJourneyPattern>
                             </pointsInSequence>
                             <linksInSequence>
-<ServiceLinkInJourneyPattern order="1" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38222">
+<ServiceLinkInJourneyPattern order="1" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38301">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053902101_9025020053919101"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="2" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38223">
+<ServiceLinkInJourneyPattern order="2" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38302">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053919101_9025020053904102"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="3" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38224">
+<ServiceLinkInJourneyPattern order="3" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38303">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053904102_9025020053998301"/>
 </ServiceLinkInJourneyPattern>
                             </linksInSequence>
                         </JourneyPattern>
                     </journeyPatterns>
                 </ServiceFrame>
-                <TimetableFrame version="20240902035740" id="SE:020:TimetableFrame:9011020078300000">
+                <TimetableFrame version="20241009025723" id="SE:020:TimetableFrame:9011020078300000">
                     <vehicleJourneys>
                         <ServiceJourney version="any" id="SE:020:ServiceJourney:205330000113220644">
                             <TransportMode>bus</TransportMode>
@@ -208,7 +208,7 @@
 <BusSubmode>unknown</BusSubmode>
                             </TransportSubmode>
                             <dayTypes>
-<DayTypeRef ref="SE:020:DayType:0d7n928ioil4njo5aut8diq61as4dle8"/>
+<DayTypeRef ref="SE:020:DayType:ptjjeabd9982f800r0u719bhro11637u"/>
                             </dayTypes>
                             <JourneyPatternRef ref="SE:020:JourneyPattern:205339415000019374" version="any"/>
                             <OperatorRef ref="SE:020:Operator:9013020810000000"/>
@@ -244,7 +244,7 @@
 <BusSubmode>unknown</BusSubmode>
                             </TransportSubmode>
                             <dayTypes>
-<DayTypeRef ref="SE:020:DayType:0d7n928ioil4njo5aut8diq61as4dle8"/>
+<DayTypeRef ref="SE:020:DayType:ptjjeabd9982f800r0u719bhro11637u"/>
                             </dayTypes>
                             <JourneyPatternRef ref="SE:020:JourneyPattern:205339415000024687" version="any"/>
                             <OperatorRef ref="SE:020:Operator:9013020810000000"/>

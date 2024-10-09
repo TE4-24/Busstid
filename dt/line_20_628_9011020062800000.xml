@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<PublicationDelivery xmlns="http://www.netex.org.uk/netex" xmlns:ns2="http://www.opengis.net/gml/3.2" xmlns:ns3="http://www.siri.org.uk/siri" version="1.11:NO-NeTEx-networktimetable:1.3">
-    <PublicationTimestamp>2024-09-02T03:57:40</PublicationTimestamp>
+<PublicationDelivery xmlns="http://www.netex.org.uk/netex" xmlns:ns2="http://www.opengis.net/gml/3.2" xmlns:ns3="http://www.siri.org.uk/siri" xmlns:ns4="http://www.samtrafiken.se/netex" version="1.11:NO-NeTEx-networktimetable:1.3">
+    <PublicationTimestamp>2024-10-09T02:57:23</PublicationTimestamp>
     <ParticipantRef>SAM</ParticipantRef>
     <dataObjects>
-        <CompositeFrame created="2024-09-02T03:57:40" version="20240902035740" id="SE:020:CompositeFrame:9011020062800000">
+        <CompositeFrame created="2024-10-09T02:57:23" version="20241009025723" id="SE:020:CompositeFrame:9011020062800000">
             <ValidBetween>
                 <FromDate>1970-01-01T00:00:00</FromDate>
             </ValidBetween>
@@ -21,7 +21,7 @@
                 <DefaultLocationSystem>4326</DefaultLocationSystem>
             </FrameDefaults>
             <frames>
-                <ServiceFrame version="20240902035740" id="SE:020:ServiceFrame:9011020062800000">
+                <ServiceFrame version="20241009025723" id="SE:020:ServiceFrame:9011020062800000">
                     <routes>
                         <Route version="any" id="SE:020:Route:205330000094832063">
                             <Name>Flextrafik</Name>
@@ -139,7 +139,7 @@
 </StopPointInJourneyPattern>
                             </pointsInSequence>
                             <linksInSequence>
-<ServiceLinkInJourneyPattern order="1" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_42169">
+<ServiceLinkInJourneyPattern order="1" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_42206">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020058198101_9025020058138601"/>
 </ServiceLinkInJourneyPattern>
                             </linksInSequence>
@@ -162,7 +162,7 @@
 </StopPointInJourneyPattern>
                             </pointsInSequence>
                             <linksInSequence>
-<ServiceLinkInJourneyPattern order="1" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_42170">
+<ServiceLinkInJourneyPattern order="1" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_42207">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020058198101_9025020058131401"/>
 </ServiceLinkInJourneyPattern>
                             </linksInSequence>
@@ -191,10 +191,10 @@
 </StopPointInJourneyPattern>
                             </pointsInSequence>
                             <linksInSequence>
-<ServiceLinkInJourneyPattern order="1" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_42171">
+<ServiceLinkInJourneyPattern order="1" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_42208">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020058198101_9025020058131401"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="2" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_42172">
+<ServiceLinkInJourneyPattern order="2" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_42209">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020058131401_9025020058138601"/>
 </ServiceLinkInJourneyPattern>
                             </linksInSequence>
@@ -217,7 +217,7 @@
 </StopPointInJourneyPattern>
                             </pointsInSequence>
                             <linksInSequence>
-<ServiceLinkInJourneyPattern order="1" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_42173">
+<ServiceLinkInJourneyPattern order="1" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_42210">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020058138601_9025020058198101"/>
 </ServiceLinkInJourneyPattern>
                             </linksInSequence>
@@ -240,7 +240,7 @@
 </StopPointInJourneyPattern>
                             </pointsInSequence>
                             <linksInSequence>
-<ServiceLinkInJourneyPattern order="1" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_42174">
+<ServiceLinkInJourneyPattern order="1" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_42211">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020058131401_9025020058198101"/>
 </ServiceLinkInJourneyPattern>
                             </linksInSequence>
@@ -269,17 +269,17 @@
 </StopPointInJourneyPattern>
                             </pointsInSequence>
                             <linksInSequence>
-<ServiceLinkInJourneyPattern order="1" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_42175">
+<ServiceLinkInJourneyPattern order="1" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_42212">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020058138601_9025020058131401"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="2" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_42176">
+<ServiceLinkInJourneyPattern order="2" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_42213">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020058131401_9025020058198101"/>
 </ServiceLinkInJourneyPattern>
                             </linksInSequence>
                         </JourneyPattern>
                     </journeyPatterns>
                 </ServiceFrame>
-                <TimetableFrame version="20240902035740" id="SE:020:TimetableFrame:9011020062800000">
+                <TimetableFrame version="20241009025723" id="SE:020:TimetableFrame:9011020062800000">
                     <vehicleJourneys>
                         <ServiceJourney version="any" id="SE:020:ServiceJourney:205330000113219132">
                             <TransportMode>bus</TransportMode>
@@ -287,7 +287,7 @@
 <BusSubmode>unknown</BusSubmode>
                             </TransportSubmode>
                             <dayTypes>
-<DayTypeRef ref="SE:020:DayType:gjj48i5tn94ltd92p95tvc2se2inbb0u"/>
+<DayTypeRef ref="SE:020:DayType:hbn3mnf3di33g97sfqgfkvfvbag9g6ds"/>
                             </dayTypes>
                             <JourneyPatternRef ref="SE:020:JourneyPattern:205339415000020996" version="any"/>
                             <OperatorRef ref="SE:020:Operator:9013020810000000"/>
@@ -313,7 +313,7 @@
 <BusSubmode>unknown</BusSubmode>
                             </TransportSubmode>
                             <dayTypes>
-<DayTypeRef ref="SE:020:DayType:gjj48i5tn94ltd92p95tvc2se2inbb0u"/>
+<DayTypeRef ref="SE:020:DayType:hbn3mnf3di33g97sfqgfkvfvbag9g6ds"/>
                             </dayTypes>
                             <JourneyPatternRef ref="SE:020:JourneyPattern:205339415000020996" version="any"/>
                             <OperatorRef ref="SE:020:Operator:9013020810000000"/>
@@ -339,7 +339,7 @@
 <BusSubmode>unknown</BusSubmode>
                             </TransportSubmode>
                             <dayTypes>
-<DayTypeRef ref="SE:020:DayType:gjj48i5tn94ltd92p95tvc2se2inbb0u"/>
+<DayTypeRef ref="SE:020:DayType:hbn3mnf3di33g97sfqgfkvfvbag9g6ds"/>
                             </dayTypes>
                             <JourneyPatternRef ref="SE:020:JourneyPattern:205339415000020998" version="any"/>
                             <OperatorRef ref="SE:020:Operator:9013020810000000"/>
@@ -365,7 +365,7 @@
 <BusSubmode>unknown</BusSubmode>
                             </TransportSubmode>
                             <dayTypes>
-<DayTypeRef ref="SE:020:DayType:gjj48i5tn94ltd92p95tvc2se2inbb0u"/>
+<DayTypeRef ref="SE:020:DayType:hbn3mnf3di33g97sfqgfkvfvbag9g6ds"/>
                             </dayTypes>
                             <JourneyPatternRef ref="SE:020:JourneyPattern:205339415000020998" version="any"/>
                             <OperatorRef ref="SE:020:Operator:9013020810000000"/>
@@ -385,127 +385,13 @@
 <BookingNote>Turen ska förbeställas senast 2 timmar före bussens avgångstid via telefon 0774-44 00 00.</BookingNote>
                             </FlexibleServiceProperties>
                         </ServiceJourney>
-                        <ServiceJourney version="any" id="SE:020:ServiceJourney:205330000116444678">
-                            <TransportMode>bus</TransportMode>
-                            <TransportSubmode>
-<BusSubmode>unknown</BusSubmode>
-                            </TransportSubmode>
-                            <dayTypes>
-<DayTypeRef ref="SE:020:DayType:18r5q8lscanklnqo2r23sqj5bi4svbea"/>
-                            </dayTypes>
-                            <JourneyPatternRef ref="SE:020:JourneyPattern:205339415000020997" version="any"/>
-                            <OperatorRef ref="SE:020:Operator:9013020810000000"/>
-                            <passingTimes>
-<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000116444674">
-    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000020997_205330000094832068" version="any"/>
-    <DepartureTime>10:30:00</DepartureTime>
-</TimetabledPassingTime>
-<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000116444675">
-    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000020997_205330000094832069" version="any"/>
-    <ArrivalTime>11:00:00</ArrivalTime>
-</TimetabledPassingTime>
-                            </passingTimes>
-                            <FlexibleServiceProperties>
-<FlexibleServiceType>fixedPassingTimes</FlexibleServiceType>
-<BookWhen>advanceOnly</BookWhen>
-<BookingNote>Turen ska förbeställas senast 2 timmar före bussens avgångstid via telefon 0774-44 00 00.</BookingNote>
-                            </FlexibleServiceProperties>
-                        </ServiceJourney>
-                        <ServiceJourney version="any" id="SE:020:ServiceJourney:205330000116444763">
-                            <TransportMode>bus</TransportMode>
-                            <TransportSubmode>
-<BusSubmode>unknown</BusSubmode>
-                            </TransportSubmode>
-                            <dayTypes>
-<DayTypeRef ref="SE:020:DayType:18r5q8lscanklnqo2r23sqj5bi4svbea"/>
-                            </dayTypes>
-                            <JourneyPatternRef ref="SE:020:JourneyPattern:205339415000020999" version="any"/>
-                            <OperatorRef ref="SE:020:Operator:9013020810000000"/>
-                            <passingTimes>
-<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000116444759">
-    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000020999_205330000094832104" version="any"/>
-    <DepartureTime>13:00:00</DepartureTime>
-</TimetabledPassingTime>
-<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000116444760">
-    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000020999_205330000094832105" version="any"/>
-    <ArrivalTime>13:30:00</ArrivalTime>
-</TimetabledPassingTime>
-                            </passingTimes>
-                            <FlexibleServiceProperties>
-<FlexibleServiceType>fixedPassingTimes</FlexibleServiceType>
-<BookWhen>advanceOnly</BookWhen>
-<BookingNote>Turen ska förbeställas senast 2 timmar före bussens avgångstid via telefon 0774-44 00 00.</BookingNote>
-                            </FlexibleServiceProperties>
-                        </ServiceJourney>
-                        <ServiceJourney version="any" id="SE:020:ServiceJourney:205330000116445015">
-                            <TransportMode>bus</TransportMode>
-                            <TransportSubmode>
-<BusSubmode>unknown</BusSubmode>
-                            </TransportSubmode>
-                            <dayTypes>
-<DayTypeRef ref="SE:020:DayType:qjtc0grrctpssp17er0e8q428rgukasg"/>
-                            </dayTypes>
-                            <JourneyPatternRef ref="SE:020:JourneyPattern:205339415000021001" version="any"/>
-                            <OperatorRef ref="SE:020:Operator:9013020810000000"/>
-                            <passingTimes>
-<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000116445010">
-    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000021001_205330000094832141" version="any"/>
-    <DepartureTime>13:30:00</DepartureTime>
-</TimetabledPassingTime>
-<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000116445011">
-    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000021001_205330000094832142" version="any"/>
-    <ArrivalTime>13:45:00</ArrivalTime>
-    <DepartureTime>13:45:00</DepartureTime>
-</TimetabledPassingTime>
-<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000116445012">
-    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000021001_205330000094832143" version="any"/>
-    <ArrivalTime>14:15:00</ArrivalTime>
-</TimetabledPassingTime>
-                            </passingTimes>
-                            <FlexibleServiceProperties>
-<FlexibleServiceType>fixedPassingTimes</FlexibleServiceType>
-<BookWhen>advanceOnly</BookWhen>
-<BookingNote>Turen ska förbeställas senast 2 timmar före bussens avgångstid via telefon 0774-44 00 00.</BookingNote>
-                            </FlexibleServiceProperties>
-                        </ServiceJourney>
-                        <ServiceJourney version="any" id="SE:020:ServiceJourney:205330000116445099">
-                            <TransportMode>bus</TransportMode>
-                            <TransportSubmode>
-<BusSubmode>unknown</BusSubmode>
-                            </TransportSubmode>
-                            <dayTypes>
-<DayTypeRef ref="SE:020:DayType:f7qq17dh07mjjsoc71ph8ggq7hphbp83"/>
-                            </dayTypes>
-                            <JourneyPatternRef ref="SE:020:JourneyPattern:205339415000021001" version="any"/>
-                            <OperatorRef ref="SE:020:Operator:9013020810000000"/>
-                            <passingTimes>
-<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000116445094">
-    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000021001_205330000094832141" version="any"/>
-    <DepartureTime>14:30:00</DepartureTime>
-</TimetabledPassingTime>
-<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000116445095">
-    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000021001_205330000094832142" version="any"/>
-    <ArrivalTime>14:45:00</ArrivalTime>
-    <DepartureTime>14:45:00</DepartureTime>
-</TimetabledPassingTime>
-<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000116445096">
-    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000021001_205330000094832143" version="any"/>
-    <ArrivalTime>15:15:00</ArrivalTime>
-</TimetabledPassingTime>
-                            </passingTimes>
-                            <FlexibleServiceProperties>
-<FlexibleServiceType>fixedPassingTimes</FlexibleServiceType>
-<BookWhen>advanceOnly</BookWhen>
-<BookingNote>Turen ska förbeställas senast 2 timmar före bussens avgångstid via telefon 0774-44 00 00.</BookingNote>
-                            </FlexibleServiceProperties>
-                        </ServiceJourney>
                         <ServiceJourney version="any" id="SE:020:ServiceJourney:205330000116444847">
                             <TransportMode>bus</TransportMode>
                             <TransportSubmode>
 <BusSubmode>unknown</BusSubmode>
                             </TransportSubmode>
                             <dayTypes>
-<DayTypeRef ref="SE:020:DayType:qjtc0grrctpssp17er0e8q428rgukasg"/>
+<DayTypeRef ref="SE:020:DayType:i0bdehhrh5i9kshge0mbd49ajcj6r33c"/>
                             </dayTypes>
                             <JourneyPatternRef ref="SE:020:JourneyPattern:205339415000021000" version="any"/>
                             <OperatorRef ref="SE:020:Operator:9013020810000000"/>
@@ -536,7 +422,7 @@
 <BusSubmode>unknown</BusSubmode>
                             </TransportSubmode>
                             <dayTypes>
-<DayTypeRef ref="SE:020:DayType:f7qq17dh07mjjsoc71ph8ggq7hphbp83"/>
+<DayTypeRef ref="SE:020:DayType:51qt38ll1p2oeco9qkm9e3ui9m8873r6"/>
                             </dayTypes>
                             <JourneyPatternRef ref="SE:020:JourneyPattern:205339415000021000" version="any"/>
                             <OperatorRef ref="SE:020:Operator:9013020810000000"/>
@@ -553,6 +439,120 @@
 <TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000116444928">
     <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000021000_205330000094832124" version="any"/>
     <ArrivalTime>11:30:00</ArrivalTime>
+</TimetabledPassingTime>
+                            </passingTimes>
+                            <FlexibleServiceProperties>
+<FlexibleServiceType>fixedPassingTimes</FlexibleServiceType>
+<BookWhen>advanceOnly</BookWhen>
+<BookingNote>Turen ska förbeställas senast 2 timmar före bussens avgångstid via telefon 0774-44 00 00.</BookingNote>
+                            </FlexibleServiceProperties>
+                        </ServiceJourney>
+                        <ServiceJourney version="any" id="SE:020:ServiceJourney:205330000116444678">
+                            <TransportMode>bus</TransportMode>
+                            <TransportSubmode>
+<BusSubmode>unknown</BusSubmode>
+                            </TransportSubmode>
+                            <dayTypes>
+<DayTypeRef ref="SE:020:DayType:99fi8ri79d7lo1s7mp6v58l3k207168e"/>
+                            </dayTypes>
+                            <JourneyPatternRef ref="SE:020:JourneyPattern:205339415000020997" version="any"/>
+                            <OperatorRef ref="SE:020:Operator:9013020810000000"/>
+                            <passingTimes>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000116444674">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000020997_205330000094832068" version="any"/>
+    <DepartureTime>10:30:00</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000116444675">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000020997_205330000094832069" version="any"/>
+    <ArrivalTime>11:00:00</ArrivalTime>
+</TimetabledPassingTime>
+                            </passingTimes>
+                            <FlexibleServiceProperties>
+<FlexibleServiceType>fixedPassingTimes</FlexibleServiceType>
+<BookWhen>advanceOnly</BookWhen>
+<BookingNote>Turen ska förbeställas senast 2 timmar före bussens avgångstid via telefon 0774-44 00 00.</BookingNote>
+                            </FlexibleServiceProperties>
+                        </ServiceJourney>
+                        <ServiceJourney version="any" id="SE:020:ServiceJourney:205330000116444763">
+                            <TransportMode>bus</TransportMode>
+                            <TransportSubmode>
+<BusSubmode>unknown</BusSubmode>
+                            </TransportSubmode>
+                            <dayTypes>
+<DayTypeRef ref="SE:020:DayType:99fi8ri79d7lo1s7mp6v58l3k207168e"/>
+                            </dayTypes>
+                            <JourneyPatternRef ref="SE:020:JourneyPattern:205339415000020999" version="any"/>
+                            <OperatorRef ref="SE:020:Operator:9013020810000000"/>
+                            <passingTimes>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000116444759">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000020999_205330000094832104" version="any"/>
+    <DepartureTime>13:00:00</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000116444760">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000020999_205330000094832105" version="any"/>
+    <ArrivalTime>13:30:00</ArrivalTime>
+</TimetabledPassingTime>
+                            </passingTimes>
+                            <FlexibleServiceProperties>
+<FlexibleServiceType>fixedPassingTimes</FlexibleServiceType>
+<BookWhen>advanceOnly</BookWhen>
+<BookingNote>Turen ska förbeställas senast 2 timmar före bussens avgångstid via telefon 0774-44 00 00.</BookingNote>
+                            </FlexibleServiceProperties>
+                        </ServiceJourney>
+                        <ServiceJourney version="any" id="SE:020:ServiceJourney:205330000116445015">
+                            <TransportMode>bus</TransportMode>
+                            <TransportSubmode>
+<BusSubmode>unknown</BusSubmode>
+                            </TransportSubmode>
+                            <dayTypes>
+<DayTypeRef ref="SE:020:DayType:i0bdehhrh5i9kshge0mbd49ajcj6r33c"/>
+                            </dayTypes>
+                            <JourneyPatternRef ref="SE:020:JourneyPattern:205339415000021001" version="any"/>
+                            <OperatorRef ref="SE:020:Operator:9013020810000000"/>
+                            <passingTimes>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000116445010">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000021001_205330000094832141" version="any"/>
+    <DepartureTime>13:30:00</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000116445011">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000021001_205330000094832142" version="any"/>
+    <ArrivalTime>13:45:00</ArrivalTime>
+    <DepartureTime>13:45:00</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000116445012">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000021001_205330000094832143" version="any"/>
+    <ArrivalTime>14:15:00</ArrivalTime>
+</TimetabledPassingTime>
+                            </passingTimes>
+                            <FlexibleServiceProperties>
+<FlexibleServiceType>fixedPassingTimes</FlexibleServiceType>
+<BookWhen>advanceOnly</BookWhen>
+<BookingNote>Turen ska förbeställas senast 2 timmar före bussens avgångstid via telefon 0774-44 00 00.</BookingNote>
+                            </FlexibleServiceProperties>
+                        </ServiceJourney>
+                        <ServiceJourney version="any" id="SE:020:ServiceJourney:205330000116445099">
+                            <TransportMode>bus</TransportMode>
+                            <TransportSubmode>
+<BusSubmode>unknown</BusSubmode>
+                            </TransportSubmode>
+                            <dayTypes>
+<DayTypeRef ref="SE:020:DayType:51qt38ll1p2oeco9qkm9e3ui9m8873r6"/>
+                            </dayTypes>
+                            <JourneyPatternRef ref="SE:020:JourneyPattern:205339415000021001" version="any"/>
+                            <OperatorRef ref="SE:020:Operator:9013020810000000"/>
+                            <passingTimes>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000116445094">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000021001_205330000094832141" version="any"/>
+    <DepartureTime>14:30:00</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000116445095">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000021001_205330000094832142" version="any"/>
+    <ArrivalTime>14:45:00</ArrivalTime>
+    <DepartureTime>14:45:00</DepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="any" id="SE:020:TimetabledPassingTime:205330000116445096">
+    <StopPointInJourneyPatternRef ref="SE:020:StopPointInJourneyPattern:205339415000021001_205330000094832143" version="any"/>
+    <ArrivalTime>15:15:00</ArrivalTime>
 </TimetabledPassingTime>
                             </passingTimes>
                             <FlexibleServiceProperties>

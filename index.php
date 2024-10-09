@@ -1,18 +1,54 @@
 <html>
+ <?php 
+    // set_time_limit(0);
+    // $curl = curl_init();
+    // $file = fopen("dt\dt.zip", "w");
+    // curl_setopt($curl, CURLOPT_URL, "https://opendata.samtrafiken.se/netex/dt/dt.zip?key=7ed1ac05e6984f7d9e1b477cb65ee337");
+    // curl_setopt($curl, CURLOPT_ENCODING, "gzip");
+    // curl_setopt($curl, CURLOPT_FILE, $file);
+    // curl_exec($curl);
+    // curl_close($curl);
+    ?>
 
+    <?php 
+    // $zip = new ZipArchive;
+    // if ($zip->open('dt\dt.zip') === TRUE) {
+    //     $zip->extractTo('dt');
+    //     $zip->close();
+    //     echo 'Unzipped Process Successful!'; 
+    // } else { 
+    //     echo 'Unzipped Process failed'; 
+    // }
+    ?>
 <head>
+   
 </head>
 
 <body>
     <?php
     date_default_timezone_set("Europe/Stockholm");
     $xml = simplexml_load_file("dt/_stops.xml")->dataObjects->SiteFrame->stopPlaces or die("Error: Cannot create object");
+    $Sharedxml = simplexml_load_file("dt/_shared_data.xml") or die ("Error: can't create object");
+    $DayTypeXml = $Sharedxml->dataObjects->CompositeFrame->frames->ServiceCalendarFrame->dayTypes->DayType;
+    $VardagArray = [];
+    foreach ($DayTypeXml as $DayTypes){
+        $DaysOfWeek = $DayTypes->properties->PropertyOfDay->DaysOfWeek;
+        $DayTypeId = (string) $DayTypes['id'];
+        if ($DaysOfWeek == "Monday Tuesday Wednesday Thursday Friday") {
+            $VardagArray[] = $DayTypeId;
+        }
+    }
     
+
+
     foreach ($xml->StopPlace as $code) {
-        if (stripos($code->Name, 'Borlänge Centrum') !== false) {
+        // echo $code->Name . "<br>";
+        if ($code->Name == 'Borlänge centrum'){
             $privcode1 = $code->PrivateCode;
-        } elseif (stripos($code->Name, 'Borlänge Resecentrum') !== false) {
+        } 
+        if ($code->Name == 'Borlänge resecentrum'){
             $privcode2 = $code->PrivateCode;
+            break;
         }
     }
 
@@ -31,7 +67,7 @@
     $UnixTimeArrayBullermyren = [];
     $UpcomingTimesDalaAirport = [];
     $UpcomingTimesBullermyren = [];
-    $Linje1Vardag = "gjj48i5tn94ltd92p95tvc2se2inbb0u";
+    
     foreach ($routePointRefs1 as $routePointRef) {
         $refValue = (string) $routePointRef['ref'];
         $RPFparentElement1 = $routePointRef->xpath("parent::*")[0];
@@ -68,7 +104,8 @@
             $StopParentParentParent1 = $StopParentParent1->xpath("parent::*")[0];
             $DayType = $StopParentParentParent1->dayTypes->DayTypeRef;            
             $DayTypeRef = (string) $DayType['ref'];
-            if (str_contains($DayTypeRef, $Linje1Vardag)){
+
+            if (in_array($DayTypeRef, $VardagArray)){
                 $SPparentElement1 = $StopPoint1->xpath("parent::*")[0];
                 $DalaAirport1TidArray[] = $SPparentElement1->DepartureTime; 
             }
@@ -85,7 +122,7 @@
             $Stop1ParentParentParent1 = $Stop1ParentParent1->xpath("parent::*")[0];
             $DayType1 = $Stop1ParentParentParent1->dayTypes->DayTypeRef;            
             $DayTypeRef = (string) $DayType1['ref'];
-            if (str_contains($DayTypeRef, $Linje1Vardag)){
+            if (in_array($DayTypeRef, $VardagArray)) {
                 $SP1parentElement1 = $StopPoint1->xpath("parent::*")[0];
                 $Bullermyren1TidArray[] = $SP1parentElement1->DepartureTime;
             }
@@ -113,12 +150,8 @@
 
     sort($UpcomingTimesDalaAirport);
     sort($UpcomingTimesBullermyren);
-    echo "linje 1 mot dala airport:" . "<br>";
-    echo date("H:i", $UpcomingTimesDalaAirport[0]) . "<br>";
-    echo "Linje 1 mot Bullermyren/övre tjärna" . "<br>";
-    echo date("H:i", $UpcomingTimesBullermyren[0]) . "<br>";
+    echo "Linje 1 mot dala airport: " . date("H:i", $UpcomingTimesDalaAirport[0]) . "<br>";
+    echo "Linje 1 mot Bullermyren/övre tjärna: " . date("H:i", $UpcomingTimesBullermyren[0]) . "<br>";
 ?>
-
 </body>
-
 </html>
