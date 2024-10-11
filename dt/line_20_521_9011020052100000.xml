@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<PublicationDelivery xmlns="http://www.netex.org.uk/netex" xmlns:ns2="http://www.opengis.net/gml/3.2" xmlns:ns3="http://www.siri.org.uk/siri" version="1.11:NO-NeTEx-networktimetable:1.3">
-    <PublicationTimestamp>2024-09-02T03:57:40</PublicationTimestamp>
+<PublicationDelivery xmlns="http://www.netex.org.uk/netex" xmlns:ns2="http://www.opengis.net/gml/3.2" xmlns:ns3="http://www.siri.org.uk/siri" xmlns:ns4="http://www.samtrafiken.se/netex" version="1.11:NO-NeTEx-networktimetable:1.3">
+    <PublicationTimestamp>2024-10-09T02:57:23</PublicationTimestamp>
     <ParticipantRef>SAM</ParticipantRef>
     <dataObjects>
-        <CompositeFrame created="2024-09-02T03:57:40" version="20240902035740" id="SE:020:CompositeFrame:9011020052100000">
+        <CompositeFrame created="2024-10-09T02:57:23" version="20241009025723" id="SE:020:CompositeFrame:9011020052100000">
             <ValidBetween>
                 <FromDate>1970-01-01T00:00:00</FromDate>
             </ValidBetween>
@@ -21,7 +21,7 @@
                 <DefaultLocationSystem>4326</DefaultLocationSystem>
             </FrameDefaults>
             <frames>
-                <ServiceFrame version="20240902035740" id="SE:020:ServiceFrame:9011020052100000">
+                <ServiceFrame version="20241009025723" id="SE:020:ServiceFrame:9011020052100000">
                     <routes>
                         <Route version="any" id="SE:020:Route:205330000091744881">
                             <Name>Flexområde Södra Ludvika</Name>
@@ -120,16 +120,16 @@
 </StopPointInJourneyPattern>
                             </pointsInSequence>
                             <linksInSequence>
-<ServiceLinkInJourneyPattern order="1" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39939">
+<ServiceLinkInJourneyPattern order="1" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39975">
     <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058515901_9025020058530101"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="2" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39940">
+<ServiceLinkInJourneyPattern order="2" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39976">
     <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058530101_9025020058530002"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="3" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39941">
+<ServiceLinkInJourneyPattern order="3" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39977">
     <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058530002_9025020058530301"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="4" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39942">
+<ServiceLinkInJourneyPattern order="4" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39978">
     <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058530301_9025020058593801"/>
 </ServiceLinkInJourneyPattern>
                             </linksInSequence>
@@ -170,23 +170,23 @@
 </StopPointInJourneyPattern>
                             </pointsInSequence>
                             <linksInSequence>
-<ServiceLinkInJourneyPattern order="1" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39943">
+<ServiceLinkInJourneyPattern order="1" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39979">
     <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058593801_9025020058530301"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="2" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39944">
+<ServiceLinkInJourneyPattern order="2" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39980">
     <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058530301_9025020058530101"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="3" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39945">
+<ServiceLinkInJourneyPattern order="3" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39981">
     <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058530101_9025020058530002"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="4" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39946">
+<ServiceLinkInJourneyPattern order="4" version="any" id="SE:020:ServiceLinkInJourneyPattern:BUS_39982">
     <ServiceLinkRef ref="SE:020:ServiceLink:BUS_9025020058530002_9025020058515901"/>
 </ServiceLinkInJourneyPattern>
                             </linksInSequence>
                         </JourneyPattern>
                     </journeyPatterns>
                 </ServiceFrame>
-                <TimetableFrame version="20240902035740" id="SE:020:TimetableFrame:9011020052100000">
+                <TimetableFrame version="20241009025723" id="SE:020:TimetableFrame:9011020052100000">
                     <vehicleJourneys>
                         <ServiceJourney version="any" id="SE:020:ServiceJourney:205330000113218372">
                             <TransportMode>bus</TransportMode>
@@ -194,7 +194,7 @@
 <BusSubmode>unknown</BusSubmode>
                             </TransportSubmode>
                             <dayTypes>
-<DayTypeRef ref="SE:020:DayType:88p3nq9vvdlprhuh7rt2f9pv4eg6okgo"/>
+<DayTypeRef ref="SE:020:DayType:lvsiokc2t9s6uedj89ko6jkfou11aghp"/>
                             </dayTypes>
                             <JourneyPatternRef ref="SE:020:JourneyPattern:205339415000020086" version="any"/>
                             <OperatorRef ref="SE:020:Operator:9013020810000000"/>
@@ -235,7 +235,7 @@
 <BusSubmode>unknown</BusSubmode>
                             </TransportSubmode>
                             <dayTypes>
-<DayTypeRef ref="SE:020:DayType:88p3nq9vvdlprhuh7rt2f9pv4eg6okgo"/>
+<DayTypeRef ref="SE:020:DayType:lvsiokc2t9s6uedj89ko6jkfou11aghp"/>
                             </dayTypes>
                             <JourneyPatternRef ref="SE:020:JourneyPattern:205339415000020087" version="any"/>
                             <OperatorRef ref="SE:020:Operator:9013020810000000"/>

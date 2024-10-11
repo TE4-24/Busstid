@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<PublicationDelivery xmlns="http://www.netex.org.uk/netex" xmlns:ns2="http://www.opengis.net/gml/3.2" xmlns:ns3="http://www.siri.org.uk/siri" version="1.11:NO-NeTEx-networktimetable:1.3">
-    <PublicationTimestamp>2024-09-02T03:57:40</PublicationTimestamp>
+<PublicationDelivery xmlns="http://www.netex.org.uk/netex" xmlns:ns2="http://www.opengis.net/gml/3.2" xmlns:ns3="http://www.siri.org.uk/siri" xmlns:ns4="http://www.samtrafiken.se/netex" version="1.11:NO-NeTEx-networktimetable:1.3">
+    <PublicationTimestamp>2024-10-09T02:57:23</PublicationTimestamp>
     <ParticipantRef>SAM</ParticipantRef>
     <dataObjects>
-        <CompositeFrame created="2024-09-02T03:57:40" version="20240902035740" id="SE:020:CompositeFrame:9011020038200000">
+        <CompositeFrame created="2024-10-09T02:57:23" version="20241009025723" id="SE:020:CompositeFrame:9011020038200000">
             <ValidBetween>
                 <FromDate>1970-01-01T00:00:00</FromDate>
             </ValidBetween>
@@ -21,7 +21,7 @@
                 <DefaultLocationSystem>4326</DefaultLocationSystem>
             </FrameDefaults>
             <frames>
-                <ServiceFrame version="20240902035740" id="SE:020:ServiceFrame:9011020038200000">
+                <ServiceFrame version="20241009025723" id="SE:020:ServiceFrame:9011020038200000">
                     <routes>
                         <Route version="any" id="SE:020:Route:205330000112925544">
                             <Name>382</Name>
@@ -758,7 +758,7 @@
                         </JourneyPattern>
                     </journeyPatterns>
                 </ServiceFrame>
-                <TimetableFrame version="20240902035740" id="SE:020:TimetableFrame:9011020038200000">
+                <TimetableFrame version="20241009025723" id="SE:020:TimetableFrame:9011020038200000">
                     <vehicleJourneys>
                         <ServiceJourney version="any" id="SE:020:ServiceJourney:205330000113936935">
                             <TransportMode>bus</TransportMode>
@@ -766,7 +766,7 @@
 <BusSubmode>unknown</BusSubmode>
                             </TransportSubmode>
                             <dayTypes>
-<DayTypeRef ref="SE:020:DayType:h05vum7jn71m52v7li4eqrlmspeivijh"/>
+<DayTypeRef ref="SE:020:DayType:33jmpmbc08dk2d8au9u7ffjuoo36fro1"/>
                             </dayTypes>
                             <JourneyPatternRef ref="SE:020:JourneyPattern:205339415000024560" version="any"/>
                             <OperatorRef ref="SE:020:Operator:9013020140700000"/>
@@ -882,7 +882,7 @@
 <BusSubmode>unknown</BusSubmode>
                             </TransportSubmode>
                             <dayTypes>
-<DayTypeRef ref="SE:020:DayType:h05vum7jn71m52v7li4eqrlmspeivijh"/>
+<DayTypeRef ref="SE:020:DayType:33jmpmbc08dk2d8au9u7ffjuoo36fro1"/>
                             </dayTypes>
                             <JourneyPatternRef ref="SE:020:JourneyPattern:205339415000025076" version="any"/>
                             <OperatorRef ref="SE:020:Operator:9013020140700000"/>
@@ -983,7 +983,7 @@
 <BusSubmode>unknown</BusSubmode>
                             </TransportSubmode>
                             <dayTypes>
-<DayTypeRef ref="SE:020:DayType:h05vum7jn71m52v7li4eqrlmspeivijh"/>
+<DayTypeRef ref="SE:020:DayType:33jmpmbc08dk2d8au9u7ffjuoo36fro1"/>
                             </dayTypes>
                             <JourneyPatternRef ref="SE:020:JourneyPattern:205339415000025075" version="any"/>
                             <OperatorRef ref="SE:020:Operator:9013020140700000"/>

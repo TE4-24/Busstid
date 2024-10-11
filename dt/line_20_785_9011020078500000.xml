@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<PublicationDelivery xmlns="http://www.netex.org.uk/netex" xmlns:ns2="http://www.opengis.net/gml/3.2" xmlns:ns3="http://www.siri.org.uk/siri" version="1.11:NO-NeTEx-networktimetable:1.3">
-    <PublicationTimestamp>2024-09-02T03:57:40</PublicationTimestamp>
+<PublicationDelivery xmlns="http://www.netex.org.uk/netex" xmlns:ns2="http://www.opengis.net/gml/3.2" xmlns:ns3="http://www.siri.org.uk/siri" xmlns:ns4="http://www.samtrafiken.se/netex" version="1.11:NO-NeTEx-networktimetable:1.3">
+    <PublicationTimestamp>2024-10-09T02:57:23</PublicationTimestamp>
     <ParticipantRef>SAM</ParticipantRef>
     <dataObjects>
-        <CompositeFrame created="2024-09-02T03:57:40" version="20240902035740" id="SE:020:CompositeFrame:9011020078500000">
+        <CompositeFrame created="2024-10-09T02:57:23" version="20241009025723" id="SE:020:CompositeFrame:9011020078500000">
             <ValidBetween>
                 <FromDate>1970-01-01T00:00:00</FromDate>
             </ValidBetween>
@@ -21,7 +21,7 @@
                 <DefaultLocationSystem>4326</DefaultLocationSystem>
             </FrameDefaults>
             <frames>
-                <ServiceFrame version="20240902035740" id="SE:020:ServiceFrame:9011020078500000">
+                <ServiceFrame version="20241009025723" id="SE:020:ServiceFrame:9011020078500000">
                     <routes>
                         <Route version="any" id="SE:020:Route:205330000091712776">
                             <Name>Flextrafik</Name>
@@ -264,52 +264,52 @@
 </StopPointInJourneyPattern>
                             </pointsInSequence>
                             <linksInSequence>
-<ServiceLinkInJourneyPattern order="1" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38231">
+<ServiceLinkInJourneyPattern order="1" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38310">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053920401_9025020053920502"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="2" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38232">
+<ServiceLinkInJourneyPattern order="2" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38311">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053920502_9025020053920602"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="3" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38233">
+<ServiceLinkInJourneyPattern order="3" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38312">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053920602_9025020053907602"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="4" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38234">
+<ServiceLinkInJourneyPattern order="4" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38313">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053907602_9025020053907402"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="5" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38235">
+<ServiceLinkInJourneyPattern order="5" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38314">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053907402_9025020053907302"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="6" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38236">
+<ServiceLinkInJourneyPattern order="6" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38315">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053907302_9025020053907202"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="7" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38237">
+<ServiceLinkInJourneyPattern order="7" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38316">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053907202_9025020053905202"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="8" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38238">
+<ServiceLinkInJourneyPattern order="8" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38317">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053905202_9025020053907102"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="9" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38239">
+<ServiceLinkInJourneyPattern order="9" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38318">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053907102_9025020053907002"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="10" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38240">
+<ServiceLinkInJourneyPattern order="10" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38319">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053907002_9025020053920301"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="11" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38241">
+<ServiceLinkInJourneyPattern order="11" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38320">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053920301_9025020053907501"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="12" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38242">
+<ServiceLinkInJourneyPattern order="12" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38321">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053907501_9025020053906902"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="13" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38243">
+<ServiceLinkInJourneyPattern order="13" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38322">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053906902_9025020053906802"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="14" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38244">
+<ServiceLinkInJourneyPattern order="14" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38323">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053906802_9025020053905002"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="15" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38245">
+<ServiceLinkInJourneyPattern order="15" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38324">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053905002_9025020053906102"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="16" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38246">
+<ServiceLinkInJourneyPattern order="16" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38325">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053906102_9025020053906202"/>
 </ServiceLinkInJourneyPattern>
                             </linksInSequence>
@@ -428,62 +428,62 @@
 </StopPointInJourneyPattern>
                             </pointsInSequence>
                             <linksInSequence>
-<ServiceLinkInJourneyPattern order="1" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38247">
+<ServiceLinkInJourneyPattern order="1" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38326">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053906201_9025020053906101"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="2" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38248">
+<ServiceLinkInJourneyPattern order="2" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38327">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053906101_9025020053905001"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="3" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38249">
+<ServiceLinkInJourneyPattern order="3" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38328">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053905001_9025020053906801"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="4" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38250">
+<ServiceLinkInJourneyPattern order="4" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38329">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053906801_9025020053906901"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="5" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38251">
+<ServiceLinkInJourneyPattern order="5" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38330">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053906901_9025020053920301"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="6" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38252">
+<ServiceLinkInJourneyPattern order="6" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38331">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053920301_9025020053907501"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="7" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38253">
+<ServiceLinkInJourneyPattern order="7" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38332">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053907501_9025020053920302"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="8" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38254">
+<ServiceLinkInJourneyPattern order="8" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38333">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053920302_9025020053907001"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="9" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38255">
+<ServiceLinkInJourneyPattern order="9" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38334">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053907001_9025020053907101"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="10" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38256">
+<ServiceLinkInJourneyPattern order="10" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38335">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053907101_9025020053905201"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="11" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38257">
+<ServiceLinkInJourneyPattern order="11" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38336">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053905201_9025020053907201"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="12" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38258">
+<ServiceLinkInJourneyPattern order="12" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38337">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053907201_9025020053907301"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="13" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38259">
+<ServiceLinkInJourneyPattern order="13" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38338">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053907301_9025020053907401"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="14" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38260">
+<ServiceLinkInJourneyPattern order="14" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38339">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053907401_9025020053907601"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="15" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38261">
+<ServiceLinkInJourneyPattern order="15" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38340">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053907601_9025020053920601"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="16" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38262">
+<ServiceLinkInJourneyPattern order="16" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38341">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053920601_9025020053920501"/>
 </ServiceLinkInJourneyPattern>
-<ServiceLinkInJourneyPattern order="17" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38263">
+<ServiceLinkInJourneyPattern order="17" version="any" id="SE:020:ServiceLinkInJourneyPattern:TAXI_38342">
     <ServiceLinkRef ref="SE:020:ServiceLink:TAXI_9025020053920501_9025020053920401"/>
 </ServiceLinkInJourneyPattern>
                             </linksInSequence>
                         </JourneyPattern>
                     </journeyPatterns>
                 </ServiceFrame>
-                <TimetableFrame version="20240902035740" id="SE:020:TimetableFrame:9011020078500000">
+                <TimetableFrame version="20241009025723" id="SE:020:TimetableFrame:9011020078500000">
                     <vehicleJourneys>
                         <ServiceJourney version="any" id="SE:020:ServiceJourney:205330000113220719">
                             <TransportMode>bus</TransportMode>
@@ -491,7 +491,7 @@
 <BusSubmode>unknown</BusSubmode>
                             </TransportSubmode>
                             <dayTypes>
-<DayTypeRef ref="SE:020:DayType:sra87i4966dst8tue40hod0e7e32i962"/>
+<DayTypeRef ref="SE:020:DayType:307pj9abcf51sh6fua920i71q5gagge7"/>
                             </dayTypes>
                             <JourneyPatternRef ref="SE:020:JourneyPattern:205339415000020073" version="any"/>
                             <OperatorRef ref="SE:020:Operator:9013020810000000"/>
@@ -592,7 +592,7 @@
 <BusSubmode>unknown</BusSubmode>
                             </TransportSubmode>
                             <dayTypes>
-<DayTypeRef ref="SE:020:DayType:sra87i4966dst8tue40hod0e7e32i962"/>
+<DayTypeRef ref="SE:020:DayType:307pj9abcf51sh6fua920i71q5gagge7"/>
                             </dayTypes>
                             <JourneyPatternRef ref="SE:020:JourneyPattern:205339415000020073" version="any"/>
                             <OperatorRef ref="SE:020:Operator:9013020810000000"/>
@@ -693,7 +693,7 @@
 <BusSubmode>unknown</BusSubmode>
                             </TransportSubmode>
                             <dayTypes>
-<DayTypeRef ref="SE:020:DayType:sra87i4966dst8tue40hod0e7e32i962"/>
+<DayTypeRef ref="SE:020:DayType:307pj9abcf51sh6fua920i71q5gagge7"/>
                             </dayTypes>
                             <JourneyPatternRef ref="SE:020:JourneyPattern:205339415000019518" version="any"/>
                             <OperatorRef ref="SE:020:Operator:9013020810000000"/>
@@ -799,7 +799,7 @@
 <BusSubmode>unknown</BusSubmode>
                             </TransportSubmode>
                             <dayTypes>
-<DayTypeRef ref="SE:020:DayType:sra87i4966dst8tue40hod0e7e32i962"/>
+<DayTypeRef ref="SE:020:DayType:307pj9abcf51sh6fua920i71q5gagge7"/>
                             </dayTypes>
                             <JourneyPatternRef ref="SE:020:JourneyPattern:205339415000019518" version="any"/>
                             <OperatorRef ref="SE:020:Operator:9013020810000000"/>
